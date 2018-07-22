@@ -1,0 +1,38 @@
+ body{
+	background-color:#e1f4f5;
+}
+
+fieldset {
+	margin: auto;
+	margin-top: 100px;
+	width: 80%;
+	border: 70px solid white;
+	text-align: left;
+	padding: 8px;
+	background-color: white;
+	}
+
+legend{
+	font-size: 40px;
+	text-align: center;
+	color:#0885f1;
+}
+
+label{
+	font-size: 20px;
+}
+
+.knopf1{
+	font-size: 17px;
+	border-radius: 5px;
+	width: 60px;
+	margin: 0px 0px 10px 0px;
+
+}
+
+.knopf2{
+	font-size: 17px;
+	border-radius: 5px;
+	width: 100px;
+	margin: 0px 10px 10px 10px;
+}

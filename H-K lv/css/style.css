@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather" );
+
+
+/*Headline*/
+#contact p {
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
+  color: #0A2068;
+  }
+
+#sortiment p {
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
+  color: #0A2068;
+
+  }
+
+/*headline line*/
+
+hr { 
+  width: 200px; 
+  height: 5px; 
+  margin: 0 auto;
+  }
+
+
+/*Logo*/
+#png{
+  width: 200px;
+  position: relative;
+  height: 120px;
+  margin-left: 45px;
+  margin-bottom: 12px;
+  }
+
+
+.foto {
+    vertical-align: middle;
+    width: 90%;
+}
+
+
+/*ImageGrid*/
+
+.imageGrid {
+  line-height: 0;
+  margin-bottom : 50px;
+  }
+
+
+
+.imageGrid .tile:before {
+  content: '';
+  background-color: rgba(15,15,15,0.5);
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  }
+
+
+
+.imageGrid .tile:hover:before {
+  display: none;
+  color: #BF0101;
+  }
+
+.imageGrid .tile .textWrapper {
+  text-align: center;
+  vertical-align: middle;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .75em;
+  font-family: 'Merriweather', serif;
+  }
+
+.imageGrid .tile .textWrapper .content {
+  display: none;
+  }
+
+.imageGrid .tile:hover .textWrapper .content {
+  display: block;
+  color: #BF0101;
+  }
+
+.imageGrid .tile:hover .textWrapper .content h2 {
+  margin: 0;
+  }
+
+
+/* Carousel */
+#myCarousel{
+  margin-top: 120px;
+  margin-bottom: 50px;
+  }
+
+@media (max-width: 1000px) {
+  .imageGrid .tile {
+    width: 50%;
+    }
+  }
+
+@media (max-width: 700px) {
+  .imageGrid .tile {
+  width: 100%;
+  } 
+
+#myCarousel{
+  margin-top: 100px;
+    }
+  }
+
+/*Footer*/
+#copyright {
+  font-size: 14px;
+  text-align: center;
+  }
+
+
+
+
+.container{
+  margin-top: 250px;
+}
+
+
+.images{
+  width: 100%;
+}
+
+
